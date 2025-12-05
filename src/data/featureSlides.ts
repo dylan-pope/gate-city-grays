@@ -4,15 +4,13 @@ export const featureSlides: FeatureSlide[] = [
   {
     title: "Halliwell Park under the lights",
     subtitle: "Gate City crowds pack the baselines all summer long.",
-    image:
-      "https://images.unsplash.com/photo-1445404590072-16ef9c18bd83?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/2025-Gray-Team.jpg",
     tag: "Ballpark",
   },
   {
     title: "Become a partner",
     subtitle: "Sponsor the Grays and get your brand on banners, jerseys, and game-day reads.",
-    image:
-      "https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/Players-by-dugout.jpg",
     tag: "Sponsors",
     ctaLabel: "Sponsor Inquiry",
     ctaHref: "/sponsors",
@@ -20,8 +18,7 @@ export const featureSlides: FeatureSlide[] = [
   {
     title: "Tryout announcements",
     subtitle: "Stay tuned for open tryouts and player showcases at Halliwell Park.",
-    image:
-      "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/Helicopter-On-Field.jpg",
     tag: "Player Info",
     ctaLabel: "Contact staff",
     ctaHref: "/contact",
@@ -29,8 +26,7 @@ export const featureSlides: FeatureSlide[] = [
   {
     title: "Gate City rivalries",
     subtitle: "Northern Utah League matchups bring out the best in Pocatello.",
-    image:
-      "https://images.unsplash.com/photo-1467307983825-619715426c70?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/Pledge-Of-Alligence.jpg",
     tag: "Schedule",
     ctaLabel: "View schedule",
     ctaHref: "/schedule",
