@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { siteInfo } from "../data/siteInfo";
+import Logo from "./Logo";
 
 const navLinks = [
   { path: "/", label: "Home" },
@@ -21,9 +22,7 @@ export default function Navbar() {
     <header className="bg-graysDark text-white shadow-lg sticky top-0 z-30">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
         <Link to="/" className="flex items-center gap-3">
-          <div className="flex h-12 w-12 items-center justify-center rounded-md bg-graysRed text-lg font-bold uppercase shadow-md">
-            G
-          </div>
+          <Logo />
           <div>
             <p className="text-sm uppercase tracking-widest text-graysMuted">
               {siteInfo.city}
