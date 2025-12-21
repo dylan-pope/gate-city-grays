@@ -1,5 +1,7 @@
 import type { Player } from "../types";
 
+const base = import.meta.env.BASE_URL;
+
 export const roster: Player[] = [
   // TODO: Replace with real Gate City Grays roster from the official source.
   {
@@ -10,7 +12,7 @@ export const roster: Player[] = [
     batsThrows: "R/R",
     hometown: "Pocatello, ID",
     bio: "Starter known for a heavy fastball and community clinics with local youth pitchers.",
-    image: "/images/Players-In-Field.jpg",
+    image: `${base}images/Players-In-Field.jpg`,
   },
   {
     name: "Luis Ramirez",
@@ -20,7 +22,7 @@ export const roster: Player[] = [
     batsThrows: "R/R",
     hometown: "Idaho Falls, ID",
     bio: "Handles the staff with calm poise and is a vocal leader behind the plate.",
-    image: "/images/Players-by-dugout.jpg",
+    image: `${base}images/Players-by-dugout.jpg`,
   },
   {
     name: "Trent Seamons",
@@ -29,7 +31,7 @@ export const roster: Player[] = [
     positions: ["Infield", "Corner Infield"],
     batsThrows: "L/R",
     bio: "Corner infielder with gap power; featured in the club’s early championship runs.",
-    image: "/images/Team-Celebration.jpg",
+    image: `${base}images/Team-Celebration.jpg`,
   },
   {
     name: "Carson Taysom",
@@ -38,7 +40,7 @@ export const roster: Player[] = [
     positions: ["Infield", "Middle Infield"],
     batsThrows: "R/R",
     bio: "Steady middle infielder with quick turns and reliable glove work.",
-    image: "/images/Second-Base.jpg",
+    image: `${base}images/Second-Base.jpg`,
   },
   {
     name: "Diego Robles",
@@ -47,7 +49,7 @@ export const roster: Player[] = [
     positions: ["Outfield"],
     batsThrows: "L/L",
     bio: "Left-handed bat with plus speed who loves attacking the gaps in Halliwell Park.",
-    image: "/images/Homerun.jpg",
+    image: `${base}images/Homerun.jpg`,
   },
   {
     name: "Gregg Simonds",
@@ -56,7 +58,7 @@ export const roster: Player[] = [
     positions: ["Outfield"],
     batsThrows: "R/R",
     bio: "Veteran presence and multi-time league champion known for clutch at-bats.",
-    image: "/images/National-Anthem.jpg",
+    image: `${base}images/National-Anthem.jpg`,
   },
   {
     name: "Alex Jensen",
@@ -65,7 +67,7 @@ export const roster: Player[] = [
     positions: ["Pitcher"],
     batsThrows: "R/R",
     bio: "Late-inning arm with a sharp slider anchoring the bullpen.",
-    image: "/images/Autograph-Signing.jpg",
+    image: `${base}images/Autograph-Signing.jpg`,
   },
   {
     name: "Marcus Hill",
@@ -74,6 +76,6 @@ export const roster: Player[] = [
     positions: ["Outfield", "Utility"],
     batsThrows: "S/R",
     bio: "Switch-hitting table setter who energizes the top of the order.",
-    image: "/images/Kids-Running-Bases.jpg",
+    image: `${base}images/Kids-Running-Bases.jpg`,
   },
 ];
